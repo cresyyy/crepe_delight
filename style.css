@@ -1,0 +1,68 @@
+body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('bgpic1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+      .logo{
+        width: 150px;
+      }
+        .nav-item{
+            padding-left:30px;
+            font-size: 20px;
+        }
+
+        .btn1 {
+          display: flex !important;
+          flex-direction: row;
+          justify-content: center;
+          width: 500px;
+        }
+
+        .fb{
+                position: relative;
+                left: 500px;
+
+
+        }
+
+        .btn-primary {
+          width: 500px;
+        }
+
+        .anchor-btn {
+          text-decoration: none;
+          color: white;
+        }
+
+        .btn-primary:first-child {
+          background-color: #FB6F92 !important;
+          border: none;
+        }
+
+        .btn-primary:first-child:hover{
+          background-color: #04AA6D; 
+        }
+
+        .btn-primary:last-child {
+          background-color: white;
+          border: 1px solid #FB6F92 ;
+          color: #FB6F92;
+        }
+
+
+        .bg-dark{
+            color: rgb(0,0,0/50%);
+        }
+        .container{
+          padding-top: 100px;
+        }
+        
+        .card-body img {
+          position: relative;
+          left: 188px;
+          top: -15px;
+        }

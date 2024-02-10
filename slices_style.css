@@ -1,0 +1,129 @@
+ body{
+        background-color: #FFC2D1;
+        font-family: 'Roboto Mono', monospace;
+      }
+
+      p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+      }
+      .bg-light{
+        background-color: #FB6F92!important;
+      }
+
+      .navbar-brand{
+        background-color: #FB6F92;
+        margin: 10px;
+        padding-left: 30px;
+        font-weight: bold;
+      }
+
+
+      .title{
+          background-color: white;
+          width: 1320px;
+          height: 1320px;
+          position: relative;
+          bottom: -193px;
+      }
+
+      .container{
+                background-image: url('menupic.png');
+                background-repeat: no-repeat;
+                height: 500px;
+                position: relative;
+                padding: 0 0 0 0;
+                background-size: contain;
+      }
+
+      .icon img {
+        width: 60px;
+        height: auto;
+        padding-right: 10px;
+      }
+
+      h1{
+        text-align: center;
+        padding-top: 150px;
+        color: white;
+      }
+
+      a{
+        text-decoration: none;
+        color:#FB6F92;
+      }
+
+      .breadcrumb-item a:hover{
+        color:#FFC2D1;
+      }
+      
+      .highlight{
+        color: white;
+      }
+
+      h5{
+        padding-top: 50px;
+        text-align: center;
+        font-size: 26px;
+
+      }
+
+
+      .card-cont{
+        margin: 30px;
+        display: flex;
+        flex-direction: row;
+        width: 1320px;
+      }
+
+      .card-img-top{
+        width: 250px;
+        height: 375px;
+        position: relative;
+      }
+
+      .card {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        margin-top: 30px;
+      }
+
+      .card-title{
+        font-size: 20px;
+      }
+
+      h6{
+        color:#FB6F92;
+      }
+
+      .hed1{
+          display: flex;
+          width: 100vw;
+      }
+
+      .navbar {
+        width: 100vw;
+      }
+
+      .form-inline {
+        display: inherit;
+        margin-right: 50px;
+      }
+
+      .form-control {
+        margin-right: 10px;
+      }
+
+      .btn{
+        color:white;
+      }
+
+      .btn-outline-success {
+        border-color: white;
+      }
+      .btn-outline-success:hover {
+        background-color: #FFC2D1; 
+        border-color: #FFC2D1;
+  }
